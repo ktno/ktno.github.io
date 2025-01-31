@@ -32,7 +32,7 @@ const Productions = () => {
             <ProductionCard
               key={index}
               index={index}
-              item={item}
+              // item={item}
               setCurrentIndex={setCurrentIndex}
             />
           ))}
@@ -88,13 +88,13 @@ const Productions = () => {
 };
 
 interface ProductionCardProps {
-  item: { title: string; description: string };
+  // item: { title: string; description: string };
   index: number;
   setCurrentIndex: (index: number) => void;
 }
 
 const ProductionCard = ({
-  item,
+  // item,
   index,
   setCurrentIndex,
 }: ProductionCardProps) => {
